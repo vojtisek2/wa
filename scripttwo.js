@@ -27,11 +27,11 @@ function getRandomHexColor() {
 
 function guess() {
   if (document.activeElement.id == index) {
-    document.getElementById("colorName").innerHTML = "CORRECT !!";
-    document.getElementById("colorName").style.color = "darkgreen";
+    document.getElementById("colorName").innerHTML = "CORRECT!";
+    document.getElementById("colorName").style.color = "black";
   } else {
-    document.getElementById("colorName").innerHTML = "WRONG !!";
-    document.getElementById("colorName").style.color = "red";
+    document.getElementById("colorName").innerHTML = "WRONG!";
+    document.getElementById("colorName").style.color = "black		";
   }
 
   document.getElementsByClassName("btn")[0].removeAttribute("onclick");
